@@ -6831,7 +6831,7 @@
     },
     {
       "fullPath": "presets/4.5/tune/fox_crooked_tune.txt",
-      "hash": "62ad5493bb180ecd352936a7d20bf3957e44207d6b9a7566b802f2eb4ba4a31b",
+      "hash": "9365dde08b5081b1650c75e990f886a3b1fccc01e8ec06ef0bb6e7fac32d3b76",
       "title": "Fox Crooked tune by Finz",
       "firmware_version": [
         "4.5",
@@ -6846,6 +6846,7 @@
         "racing"
       ],
       "author": "Paolo Ponzo / Finz",
+      "force_options_review": true,
       "priority": 1000000000000
     },
     {
