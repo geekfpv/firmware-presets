@@ -6,7 +6,6 @@
 #$ KEYWORDS: finz, fox, crooked, racing
 #$ AUTHOR: Paolo Ponzo / Finz
 
-
 #$ DESCRIPTION: Unleash your inner champion with the "Fox Crooked Tune by Finz" Betaflight Preset!
 #$ DESCRIPTION: Perfectly engineered for FPV drone racing enthusiasts, this preset delivers lightning-fast
 #$ DESCRIPTION: responsiveness and silky-smooth control. Dominate the track with razor-sharp precision, carving
@@ -18,6 +17,7 @@
 #$ INCLUDE: presets/4.5/tune/defaults.txt
 #$ INCLUDE: presets/4.5/filters/defaults.txt
 
+#$ FORCE_OPTIONS_REVIEW: TRUE
 
 # -- Gyro lowpass filters --
 set gyro_lpf1_dyn_min_hz = 0
@@ -101,8 +101,9 @@ set tpa_breakpoint = 1350
         set serialrx_provider = CRSF
 
         #$ INCLUDE: presets/4.3/rc_link/generic/250hz_race.txt
-	set feedforward_boost = 0
-	set feedforward_max_rate_limit = 95
+        
+        set feedforward_boost = 0
+        set feedforward_max_rate_limit = 95
 
     #$ OPTION END
 
@@ -113,45 +114,10 @@ set tpa_breakpoint = 1350
         set serialrx_provider = CRSF
 
         #$ INCLUDE: presets/4.3/rc_link/generic/500hz_race.txt
-	set feedforward_boost = 0
-	set feedforward_max_rate_limit = 95
 
-    #$ OPTION END
-    
-    #$ OPTION BEGIN (UNCHECKED): ELRS 1000Hz
-        # ELRS 1000Hz
-       
-        feature RX_SERIAL
-        set serialrx_provider = CRSF
+        set feedforward_boost = 0
+        set feedforward_max_rate_limit = 95
 
-         #$ INCLUDE: presets/4.3/rc_link/generic/1000hz_race.txt
-	set feedforward_boost = 0
-	set feedforward_max_rate_limit = 95
-         
-    #$ OPTION END
-    
-    #$ OPTION BEGIN (UNCHECKED): Ghost 250Hz
-        # Ghost 250Hz
-      
-        feature RX_SERIAL
-        set serialrx_provider = GHST
-
-        #$ INCLUDE: presets/4.3/rc_link/generic/250hz_race.txt
-	set feedforward_boost = 0
-	set feedforward_max_rate_limit = 95
-
-    #$ OPTION END
-
-    #$ OPTION BEGIN (UNCHECKED): Ghost 500Hz
-        # Ghost 500Hz
-       
-        feature RX_SERIAL
-        set serialrx_provider = GHST
-
-         #$ INCLUDE: presets/4.3/rc_link/generic/500hz_race.txt
-
-	set feedforward_boost = 0
-	set feedforward_max_rate_limit = 95
     #$ OPTION END
 
 #$ OPTION_GROUP END
