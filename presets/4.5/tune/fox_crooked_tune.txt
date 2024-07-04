@@ -1,0 +1,157 @@
+#$ TITLE: Fox Crooked tune by Finz
+#$ FIRMWARE_VERSION: 4.5
+#$ FIRMWARE_VERSION: 4.5
+#$ CATEGORY: TUNE
+#$ STATUS: EXPERIMENTAL
+#$ KEYWORDS: finz, fox, crooked, racing
+#$ AUTHOR: Paolo Ponzo / Finz
+
+
+#$ DESCRIPTION: Unleash your inner champion with the "Fox Crooked Tune by Finz" Betaflight Preset!
+#$ DESCRIPTION: Perfectly engineered for FPV drone racing enthusiasts, this preset delivers lightning-fast
+#$ DESCRIPTION: responsiveness and silky-smooth control. Dominate the track with razor-sharp precision, carving
+#$ DESCRIPTION: through obstacles and leaving competitors in the dust. Whether you're pushing the limits in high-speed
+#$ DESCRIPTION: chases or executing flawless acrobatics, the "Fox Crooked Tune by Finz" turns your drone into a
+#$ DESCRIPTION: high-performance racing machine. Gear up, fly harder, and conquer the skies with the ultimate racing tune!
+
+#$ INCLUDE_WARNING: misc/warnings/en/rpm_filters.txt
+#$ INCLUDE: presets/4.5/tune/defaults.txt
+#$ INCLUDE: presets/4.5/filters/defaults.txt
+
+
+# -- Gyro lowpass filters --
+set gyro_lpf1_dyn_min_hz = 0
+set gyro_lpf1_static_hz = 0
+set gyro_lpf2_static_hz = 600
+set simplified_gyro_filter = OFF
+
+# -- Gyro Dynamic Notches --
+set dyn_notch_count = 1
+set dyn_notch_q = 500
+set dyn_notch_min_hz = 110
+set dyn_notch_max_hz = 650
+
+# -- Dterm filtering -- TODO
+set dterm_lpf1_dyn_min_hz = 97
+set dterm_lpf1_dyn_max_hz = 195
+set dterm_lpf1_static_hz = 97
+set dterm_lpf2_static_hz = 195
+set simplified_dterm_filter_multiplier = 130
+
+# -- Yaw filtering --
+set yaw_lowpass_hz = 0
+
+# -- RPM filtering --
+set dshot_bidir = ON
+set rpm_filter_harmonics = 2
+set rpm_filter_min_hz = 110
+set rpm_filter_fade_range_hz = 200
+
+# -- Misc --
+set throttle_boost = 0
+
+# -- iTerm  --
+set iterm_relax_cutoff = 35
+
+# -- PIDsum limits --
+set pidsum_limit = 1000
+set pidsum_limit_yaw = 1000
+
+# -- PID values --
+set p_pitch = 42
+set i_pitch = 75
+set d_pitch = 35
+set f_pitch = 123
+set p_roll = 40
+set i_roll = 72
+set d_roll = 30
+set f_roll = 118
+set p_yaw = 40
+set i_yaw = 72
+set f_yaw = 118
+set d_min_roll = 24
+set d_min_pitch = 27
+set d_max_advance = 0
+
+# -- TPA --
+set tpa_rate = 60
+set tpa_breakpoint = 1350
+
+#$ OPTION BEGIN (CHECKED): Dshot600
+    set dshot_bidir = ON
+    set motor_pwm_protocol = DSHOT600
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): Dshot300
+    set dshot_bidir = ON
+    set motor_pwm_protocol = Dshot300
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): Dynamic idle for 2000kv 6s
+    #dynamic idle for 6s 2000kv
+    set dyn_idle_min_rpm = 38
+#$ OPTION END
+
+#$ OPTION_GROUP BEGIN: Some popular RC Links
+
+    #$ OPTION BEGIN (UNCHECKED): Tracer/ELRS 250Hz
+        # Tracer/ELRS 250Hz
+        
+        feature RX_SERIAL
+        set serialrx_provider = CRSF
+
+        #$ INCLUDE: presets/4.3/rc_link/generic/250hz_race.txt
+	set feedforward_boost = 0
+	set feedforward_max_rate_limit = 95
+
+    #$ OPTION END
+
+    #$ OPTION BEGIN (UNCHECKED): ELRS 500Hz
+        # ERLS 500Hz
+        
+        feature RX_SERIAL
+        set serialrx_provider = CRSF
+
+        #$ INCLUDE: presets/4.3/rc_link/generic/500hz_race.txt
+	set feedforward_boost = 0
+	set feedforward_max_rate_limit = 95
+
+    #$ OPTION END
+    
+    #$ OPTION BEGIN (UNCHECKED): ELRS 1000Hz
+        # ELRS 1000Hz
+       
+        feature RX_SERIAL
+        set serialrx_provider = CRSF
+
+         #$ INCLUDE: presets/4.3/rc_link/generic/1000hz_race.txt
+	set feedforward_boost = 0
+	set feedforward_max_rate_limit = 95
+         
+    #$ OPTION END
+    
+    #$ OPTION BEGIN (UNCHECKED): Ghost 250Hz
+        # Ghost 250Hz
+      
+        feature RX_SERIAL
+        set serialrx_provider = GHST
+
+        #$ INCLUDE: presets/4.3/rc_link/generic/250hz_race.txt
+	set feedforward_boost = 0
+	set feedforward_max_rate_limit = 95
+
+    #$ OPTION END
+
+    #$ OPTION BEGIN (UNCHECKED): Ghost 500Hz
+        # Ghost 500Hz
+       
+        feature RX_SERIAL
+        set serialrx_provider = GHST
+
+         #$ INCLUDE: presets/4.3/rc_link/generic/500hz_race.txt
+
+	set feedforward_boost = 0
+	set feedforward_max_rate_limit = 95
+    #$ OPTION END
+
+#$ OPTION_GROUP END
