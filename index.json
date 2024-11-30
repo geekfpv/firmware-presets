@@ -168,6 +168,7 @@
       "dmak",
       "Evan Turner (Headsup)",
       "Feisar",
+      "Finzfpv",
       "Foxeer Harvey",
       "FPV_Cam",
       "FPVian",
@@ -188,7 +189,6 @@
       "MrAlucardDante",
       "Neil Marek (Grower)",
       "NemesisXB",
-      "Paolo Ponzo / Finz",
       "QuadMcFly (Ryan Harrell)",
       "Sartor",
       "Sjoer van der Ploeg",
@@ -320,7 +320,6 @@
       "colour change",
       "Configure",
       "control",
-      "crooked",
       "Crossfire",
       "CRSF",
       "ctzsnooze",
@@ -371,10 +370,13 @@
       "freestyle",
       "freesytle",
       "freetyle",
+      "frengo",
       "FreshBread",
       "frsky",
       "fx2",
+      "gace",
       "Garban",
+      "geek",
       "geprc",
       "ghost",
       "GHST",
@@ -392,6 +394,7 @@
       "HighKV",
       "hot",
       "HV",
+      "hyper",
       "IllusionFpv",
       "immersion",
       "immersionRC",
@@ -410,6 +413,7 @@
       "LeadFingers",
       "League",
       "leds",
+      "lightweight",
       "Limon",
       "link",
       "Llama",
@@ -6830,26 +6834,6 @@
       "priority": 1000000000000
     },
     {
-      "fullPath": "presets/4.5/tune/fox_crooked_tune.txt",
-      "hash": "9365dde08b5081b1650c75e990f886a3b1fccc01e8ec06ef0bb6e7fac32d3b76",
-      "title": "Fox Crooked tune by Finz",
-      "firmware_version": [
-        "4.5",
-        "4.5"
-      ],
-      "category": "TUNE",
-      "status": "EXPERIMENTAL",
-      "keywords": [
-        "finz",
-        "fox",
-        "crooked",
-        "racing"
-      ],
-      "author": "Paolo Ponzo / Finz",
-      "force_options_review": true,
-      "priority": 1000000000000
-    },
-    {
       "fullPath": "presets/4.5/tune/fpvian_basher_freestyle.txt",
       "hash": "763018fe6435f1ccaf5c51573955b9362aaa29459ad616980f82efbecd1be5ff",
       "title": "Basher Freestyle 6S 5\" by FPVian",
@@ -6894,6 +6878,31 @@
         "5\""
       ],
       "author": "Ivan Efimov (Limon)",
+      "priority": 1000000000000
+    },
+    {
+      "fullPath": "presets/4.5/tune/hyper_fox_tune.txt",
+      "hash": "5be8d20f820f11a4bdd73db70aded41a2ef077e3d95fe28f9782c65447c7c65a",
+      "title": "Hyper Fox Racing tune 6s\"",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "TUNE",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "fox",
+        "6S",
+        "race",
+        "5 inch",
+        "lightweight",
+        "finz",
+        "geek",
+        "hyper",
+        "gace",
+        "frengo"
+      ],
+      "author": "Finzfpv",
+      "force_options_review": true,
       "priority": 1000000000000
     },
     {
