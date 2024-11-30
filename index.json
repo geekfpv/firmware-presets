@@ -6882,13 +6882,13 @@
     },
     {
       "fullPath": "presets/4.5/tune/hyper_fox_tune.txt",
-      "hash": "778fb56aca691ec8d74807a8b26c237d2aaf253b07269453480a3892e7c8db12",
+      "hash": "de9f251db4b07e5e3ae83d3c2bbf09a5bfe2a9b590f840f341644ce95cde2eb3",
       "title": "Hyper Fox Racing tune 6s\"",
       "firmware_version": [
         "4.5"
       ],
       "category": "TUNE",
-      "status": "EXPERIMENTAL",
+      "status": "OFFICIAL",
       "keywords": [
         "fox",
         "6S",
