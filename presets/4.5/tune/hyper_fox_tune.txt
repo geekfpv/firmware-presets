@@ -10,18 +10,18 @@
 #$ DESCRIPTION: <img src="https://finzfpv.com/wp-content/uploads/2024/12/Finz_LikeaBoss.png" width="90px" style="display: block; float: left; margin-right: 10px; margin-top: 20px"/>
 #$ DESCRIPTION: <h1>Not Only Hyper Fox Racing tune 6s</h1>
 #$ DESCRIPTION:
-#$ DESCRIPTION: This tuning has been originally developed by Finz for competing with the Fox Crooked at the Multigp Championship 2023, and has been later review and refined by Geekfpv and Frengofpv, and tested by many pilots using various setup.
+#$ DESCRIPTION: This tuning has been originally developed by Finz for competing with the Fox Crooked at the Multigp Champs 2023, and has been later reviewed and refined by Geekfpv and Frengofpv, and tested by many pilots using various setups.
 #$ DESCRIPTION:
 #$ DESCRIPTION:
-#$ DESCRIPTION: We find this tuning working well on the **Hyper Fox**, **Fox Crooked**, **Fox Pro** and **Fox Racing**. You may find it working good with the **CruciFox** as well.
-#$ DESCRIPTION: Use it as a starting point, not a one-size-fits-all solution. Adjustments may be needed for your specific gear and flying style.
-#$ DESCRIPTION: If you need tuning service contact Finzfpv directly.
+#$ DESCRIPTION: We find this tuning working well on the **Hyper Fox**, **Fox Crooked**, **Fox Pro** and **Fox Racing**. You may find it working with the **CruciFox** as well.
+#$ DESCRIPTION: Use it as a starting point, adjustments may be needed for your specific gear and flying style.
+#$ DESCRIPTION: If you need tuning service contact [Finzfpv](mailto:support@finzfpv.com) directly.
 #$ DESCRIPTION:
 #$ DESCRIPTION:
 #$ DESCRIPTION: This tune is thought for Racing, we highly recommend to always enable launch mode. You may hear noises when hovering but don't worry, this tune is made for speed, not hovering!
 #$ DESCRIPTION: Filters are not lowered to extreme, but don't use very bad propeller, and check for any loose parts on your frame and fix it!
-#$ DESCRIPTION: If motors excessively overheat, especially in summer, reduce the master multiplier and D slideruntill you are happy, performance might slightly degrade.
-#$ DESCRIPTION: Use at your own risk!
+#$ DESCRIPTION: If motors excessively overheat, especially in summer, reduce the master multiplier and D slider untill you are happy, performance might slightly degrade.
+#$ DESCRIPTION: **Use at your own risk!**
 #$ DESCRIPTION:
 #$ DESCRIPTION:
 #$ DESCRIPTION: ## Before you fly
@@ -30,7 +30,7 @@
 #$ DESCRIPTION: - Better start uning this preset on a clean flash. Configure ports, modes, rates, and VTX table and go.
 #$ DESCRIPTION: - Check motor ordering and motors rotation **WITHOUT PROPELLERS ON**.
 #$ DESCRIPTION: - Do yur first test flight in hovering/LOS, you may hear noise in hovering, check motors temperature, if they are super hot, check your mechanics.
-#$ DESCRIPTION: - Try flying your drone without pushing too hard, check again motors. If they are not hot, you can go.
+#$ DESCRIPTION: - Try flying your drone without pushing too hard, check again motors. If they are not hot, you can send it!
 #$ DESCRIPTION:
 #$ DESCRIPTION: 
 #$ DESCRIPTION: ## Recommended BLHeli 32 ESC settings:
