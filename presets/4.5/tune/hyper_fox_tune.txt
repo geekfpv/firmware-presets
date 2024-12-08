@@ -76,7 +76,6 @@ set yaw_lowpass_hz = 0
 set dshot_bidir = ON
 set rpm_filter_harmonics = 2
 set rpm_filter_min_hz = 110
-set rpm_filter_fade_range_hz = 200
 
 # -- Misc --
 set throttle_boost = 0
