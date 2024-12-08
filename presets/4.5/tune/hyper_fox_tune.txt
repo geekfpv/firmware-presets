@@ -34,13 +34,13 @@
 #$ DESCRIPTION:
 #$ DESCRIPTION: 
 #$ DESCRIPTION: ## Recommended BLHeli 32 ESC settings:
-#$ DESCRIPTION: - Timing 24
-#$ DESCRIPTION: - PWM frequency to 48Khz locked
+#$ DESCRIPTION: - Motor timing 24
+#$ DESCRIPTION: - PWM frequency locked to 48Khz 
 #$ DESCRIPTION: - Demag off
-#$ DESCRIPTION: - Rumpup power default
+#$ DESCRIPTION: - Rampup power default
 #$ DESCRIPTION:
 #$ DESCRIPTION: ## Disclaimer: 
-#$ DESCRIPTION: **Use at your own risk**. Always monitor motor temperatures and adjust settings as needed. For custom tuning services, contact FinzFPV directly.
+#$ DESCRIPTION: **Use at your own risk**. Always monitor motor temperatures and adjust settings as needed.
 #$ DESCRIPTION:
 #$ DESCRIPTION:
 
