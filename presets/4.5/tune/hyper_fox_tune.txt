@@ -40,7 +40,7 @@
 #$ DESCRIPTION: - Rampup power default
 #$ DESCRIPTION:
 #$ DESCRIPTION: ## Disclaimer: 
-#$ DESCRIPTION: **Use at your own risk**. Always monitor motor temperatures and adjust settings as needed.
+#$ DESCRIPTION: **Use at your own risk**. Always monitor motor temperatures and adjust settings as needed. For custom tuning services, contact [Finzfpv](mailto:support@finzfpv.com) directly.
 #$ DESCRIPTION:
 #$ DESCRIPTION:
 
