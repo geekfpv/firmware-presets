@@ -7,7 +7,7 @@
 
 #$ PARSER: MARKED
 
-#$ DESCRIPTION: <img src="https://finzfpv.com/wp-content/uploads/2021/04/cropped-LogoWhite-600x812.png" width="90px" style="display: block; float: left; margin-right: 10px; margin-top: 20px"/>
+#$ DESCRIPTION: <img src="https://finzfpv.com/wp-content/uploads/2024/12/Finz_LikeaBoss.png" width="90px" style="display: block; float: left; margin-right: 10px; margin-top: 20px"/>
 #$ DESCRIPTION: <h1>Not Only Hyper Fox Racing tune 6s</h1>
 #$ DESCRIPTION:
 #$ DESCRIPTION: This tuning has been originally developed by Finz for competing with the Fox Crooked at the Multigp Championship 2023, and has been later review and refined by Geekfpv and Frengofpv, and tested by many pilots using various setup.
